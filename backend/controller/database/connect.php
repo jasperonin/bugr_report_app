@@ -24,17 +24,10 @@ class Connect {
 
     public function connection()
     {
-         $this->conn = new mysqli($this->host, $this->user, $this->password, $this->database);
+        $this->conn = new mysqli($this->host, $this->user, $this->password, $this->database);
 
-         if($this->conn->connect_error) {
-            die('Unable to connect to database');
-         } else {
-            echo "connection success ";
-         }
-
-        $sql_insert = "INSERT INTO test(test1) VALUES (1)";
-        if(mysqli_query($this->conn,$sql_insert) == TRUE) {
-            echo "Record Inserted";
+        if($this->conn->connect_error) {
+            die(json_encode(['status' => 'error', 'message' => 'Unable to connect to database: ' . $this->conn->connect_error]));
         }
         return $this->conn;
     }

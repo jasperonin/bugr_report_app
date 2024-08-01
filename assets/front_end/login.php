@@ -12,7 +12,11 @@
 </head>
 <body>
    <?php
-        include './assets/styles/style.php'
+        include './assets/styles/style.php';
+        require_once './backend/controller/database/connect.php';
+
+        $conn = new Connect();
+        $conn->connection();
     ?>
  <!--main container-->
 
