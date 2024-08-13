@@ -1,0 +1,108 @@
+[18-Jul-2024 18:29:22 America/Boise] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php on line 27
+[18-Jul-2024 18:29:22 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php:27
+Stack trace:
+#0 /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php(27): mysqli->__construct('db', 'root', Object(SensitiveParameterValue), 'bug_report')
+#1 /home3/uznttmmy/public_html/app/src/backend/controller/database/query.php(14): Connect->connection()
+#2 /home3/uznttmmy/public_html/app/src/assets/front_end/login.php(16): Query->__construct()
+#3 /home3/uznttmmy/public_html/app/src/backend/routes/controller.php(31): include('/home3/uznttmmy...')
+#4 /home3/uznttmmy/public_html/app/src/backend/routes/controller.php(15): Controller->render('front_end/login')
+#5 /home3/uznttmmy/public_html/app/src/backend/routes/router.php(31): Controller->home()
+#6 /home3/uznttmmy/public_html/app/src/index.php(16): Router->dispatch()
+#7 {main}
+  thrown in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php on line 27
+[18-Jul-2024 18:29:35 America/Boise] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php on line 27
+[18-Jul-2024 18:29:35 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php:27
+Stack trace:
+#0 /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php(27): mysqli->__construct('db', 'root', Object(SensitiveParameterValue), 'bug_report')
+#1 /home3/uznttmmy/public_html/app/src/backend/controller/database/query.php(14): Connect->connection()
+#2 /home3/uznttmmy/public_html/app/src/assets/front_end/login.php(16): Query->__construct()
+#3 /home3/uznttmmy/public_html/app/src/backend/routes/controller.php(31): include('/home3/uznttmmy...')
+#4 /home3/uznttmmy/public_html/app/src/backend/routes/controller.php(15): Controller->render('front_end/login')
+#5 /home3/uznttmmy/public_html/app/src/backend/routes/router.php(31): Controller->home()
+#6 /home3/uznttmmy/public_html/app/src/index.php(16): Router->dispatch()
+#7 {main}
+  thrown in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php on line 27
+[18-Jul-2024 18:47:06 America/Boise] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php on line 27
+[18-Jul-2024 18:47:06 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php:27
+Stack trace:
+#0 /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php(27): mysqli->__construct('db', 'root', Object(SensitiveParameterValue), 'bug_report')
+#1 /home3/uznttmmy/public_html/app/src/backend/controller/database/query.php(14): Connect->connection()
+#2 /home3/uznttmmy/public_html/app/src/assets/front_end/login.php(16): Query->__construct()
+#3 /home3/uznttmmy/public_html/app/src/backend/routes/controller.php(31): include('/home3/uznttmmy...')
+#4 /home3/uznttmmy/public_html/app/src/backend/routes/controller.php(15): Controller->render('front_end/login')
+#5 /home3/uznttmmy/public_html/app/src/backend/routes/router.php(31): Controller->home()
+#6 /home3/uznttmmy/public_html/app/src/index.php(16): Router->dispatch()
+#7 {main}
+  thrown in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php on line 27
+[18-Jul-2024 18:47:17 America/Boise] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php on line 27
+[18-Jul-2024 18:47:17 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php:27
+Stack trace:
+#0 /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php(27): mysqli->__construct('db', 'root', Object(SensitiveParameterValue), 'bug_report')
+#1 /home3/uznttmmy/public_html/app/src/backend/controller/database/query.php(14): Connect->connection()
+#2 /home3/uznttmmy/public_html/app/src/assets/front_end/login.php(16): Query->__construct()
+#3 /home3/uznttmmy/public_html/app/src/backend/routes/controller.php(31): include('/home3/uznttmmy...')
+#4 /home3/uznttmmy/public_html/app/src/backend/routes/controller.php(15): Controller->render('front_end/login')
+#5 /home3/uznttmmy/public_html/app/src/backend/routes/router.php(31): Controller->home()
+#6 /home3/uznttmmy/public_html/app/src/index.php(16): Router->dispatch()
+#7 {main}
+  thrown in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php on line 27
+[18-Jul-2024 18:47:18 America/Boise] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php on line 27
+[18-Jul-2024 18:47:18 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php:27
+Stack trace:
+#0 /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php(27): mysqli->__construct('db', 'root', Object(SensitiveParameterValue), 'bug_report')
+#1 /home3/uznttmmy/public_html/app/src/backend/controller/database/query.php(14): Connect->connection()
+#2 /home3/uznttmmy/public_html/app/src/assets/front_end/login.php(16): Query->__construct()
+#3 /home3/uznttmmy/public_html/app/src/backend/routes/controller.php(31): include('/home3/uznttmmy...')
+#4 /home3/uznttmmy/public_html/app/src/backend/routes/controller.php(15): Controller->render('front_end/login')
+#5 /home3/uznttmmy/public_html/app/src/backend/routes/router.php(31): Controller->home()
+#6 /home3/uznttmmy/public_html/app/src/index.php(16): Router->dispatch()
+#7 {main}
+  thrown in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php on line 27
+[18-Jul-2024 18:47:19 America/Boise] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php on line 27
+[18-Jul-2024 18:47:19 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php:27
+Stack trace:
+#0 /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php(27): mysqli->__construct('db', 'root', Object(SensitiveParameterValue), 'bug_report')
+#1 /home3/uznttmmy/public_html/app/src/backend/controller/database/query.php(14): Connect->connection()
+#2 /home3/uznttmmy/public_html/app/src/assets/front_end/login.php(16): Query->__construct()
+#3 /home3/uznttmmy/public_html/app/src/backend/routes/controller.php(31): include('/home3/uznttmmy...')
+#4 /home3/uznttmmy/public_html/app/src/backend/routes/controller.php(15): Controller->render('front_end/login')
+#5 /home3/uznttmmy/public_html/app/src/backend/routes/router.php(31): Controller->home()
+#6 /home3/uznttmmy/public_html/app/src/index.php(16): Router->dispatch()
+#7 {main}
+  thrown in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php on line 27
+[18-Jul-2024 18:47:19 America/Boise] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php on line 27
+[18-Jul-2024 18:47:19 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php:27
+Stack trace:
+#0 /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php(27): mysqli->__construct('db', 'root', Object(SensitiveParameterValue), 'bug_report')
+#1 /home3/uznttmmy/public_html/app/src/backend/controller/database/query.php(14): Connect->connection()
+#2 /home3/uznttmmy/public_html/app/src/assets/front_end/login.php(16): Query->__construct()
+#3 /home3/uznttmmy/public_html/app/src/backend/routes/controller.php(31): include('/home3/uznttmmy...')
+#4 /home3/uznttmmy/public_html/app/src/backend/routes/controller.php(15): Controller->render('front_end/login')
+#5 /home3/uznttmmy/public_html/app/src/backend/routes/router.php(31): Controller->home()
+#6 /home3/uznttmmy/public_html/app/src/index.php(16): Router->dispatch()
+#7 {main}
+  thrown in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php on line 27
+[18-Jul-2024 18:48:59 America/Boise] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php on line 27
+[18-Jul-2024 18:48:59 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php:27
+Stack trace:
+#0 /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php(27): mysqli->__construct('db', 'root', Object(SensitiveParameterValue), 'bug_report')
+#1 /home3/uznttmmy/public_html/app/src/backend/controller/database/query.php(14): Connect->connection()
+#2 /home3/uznttmmy/public_html/app/src/assets/front_end/login.php(16): Query->__construct()
+#3 /home3/uznttmmy/public_html/app/src/backend/routes/controller.php(31): include('/home3/uznttmmy...')
+#4 /home3/uznttmmy/public_html/app/src/backend/routes/controller.php(15): Controller->render('front_end/login')
+#5 /home3/uznttmmy/public_html/app/src/backend/routes/router.php(31): Controller->home()
+#6 /home3/uznttmmy/public_html/app/src/index.php(16): Router->dispatch()
+#7 {main}
+  thrown in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php on line 27
+[18-Jul-2024 18:49:29 America/Boise] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php on line 27
+[18-Jul-2024 18:49:29 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for db failed: Name or service not known in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php:27
+Stack trace:
+#0 /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php(27): mysqli->__construct('db', 'root', Object(SensitiveParameterValue), 'bug_report')
+#1 /home3/uznttmmy/public_html/app/src/backend/controller/database/query.php(14): Connect->connection()
+#2 /home3/uznttmmy/public_html/app/src/assets/front_end/login.php(16): Query->__construct()
+#3 /home3/uznttmmy/public_html/app/src/backend/routes/controller.php(31): include('/home3/uznttmmy...')
+#4 /home3/uznttmmy/public_html/app/src/backend/routes/controller.php(15): Controller->render('front_end/login')
+#5 /home3/uznttmmy/public_html/app/src/backend/routes/router.php(31): Controller->home()
+#6 /home3/uznttmmy/public_html/app/src/index.php(16): Router->dispatch()
+#7 {main}
+  thrown in /home3/uznttmmy/public_html/app/src/backend/controller/database/connect.php on line 27
