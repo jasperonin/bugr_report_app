@@ -3,7 +3,7 @@ $(document).ready(function() {
         event.preventDefault();
 
         const formData = {
-            bug_report_id: $('#floatingBuglInput').val(),
+            bug_report_id: $('#bug_report_id').val(),
             textTitle: $('#textTitle').val(),
             description: $('#descriptionLabel').val(),
         };

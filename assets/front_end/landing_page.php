@@ -1,11 +1,7 @@
 <!doctype html>
 
 <html lang="en">
-
-
-
 <meta charset="utf-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Landing page</title>
@@ -57,7 +53,7 @@
                         <img src="https://cdn.prod.website-files.com/621d1905031cff21e84611fa/621fbfe243634aebf60d16b5_logo.svg">
                         <h1 id="nav_header">BugHotel</h1>
                         <hr class="my-0 border-0">
-                        "The hotel that you'd never want to visit!â€ - MJ Mandal
+                        "The hotel that you'd never want to visit!   - MJ Mandal
                         <div class="text-left">
                             <button href="/home_page" class="btn btn-primary  mt-3 rounded-pill">Get Started</button>
                         </div>

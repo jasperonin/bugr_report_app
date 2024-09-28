@@ -40,9 +40,14 @@
             border: none;
         }
 
-        table {
-            border-collapse: collapse;
-            border-spacing: 0;
+        table.dataTable{
+            word-break: break-word;
+            vertical-align: top;
+            width: 100%;
+        }
+
+        .modal-content {
+            overflow: hidden;
         }
     </style>
 </head>
@@ -67,12 +72,10 @@
                     <tr>
                         <th rowspan="0">Bug Report #</th>
                         <th>Title</th>
-                        <th>Description</th>
                         <th>Status</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <!-- Rows will be dynamically inserted here by JavaScript -->
                 </tbody>
             </table>
         </div>
@@ -89,7 +92,8 @@
                 dom: 'frtip',
                 searching: false,
                 paging: true,
-                pageLength: 5,
+                pageLength: 10,
+                autoWidth: false,
                 'ajax': {
                     'url': '../../backend/controller/database/query.php',
                     'data': function(data) {
@@ -97,20 +101,20 @@
                         var ticket_filter = $('#filter_ticket').val();
                         // Append to data
                         data.ticket_filter = ticket_filter;
-                    }
+                    },
                 },
                 'dataSrc': function(json) {
                     console.log(json); // Inspect the JSON object returned
                     return json.aaData; // Return the actual data to DataTables
                 },
                 'columns': [{
-                        data: 'bug_report_id'
+                        data: 'bug_report_id',
+                        render: function(data, type, row) {
+                            return data + '<br><small>' + row.created_at + '</small>';
+                        }
                     },
                     {
                         data: 'title'
-                    },
-                    {
-                        data: 'description'
                     },
                     {
                         data: 'status'
